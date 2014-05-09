@@ -1,27 +1,156 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name=description content="">
-        <meta name="viewport" content="width=device-width">
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
 
-        <title>Personal Page</title>
-    </head>
-    <body>
-        
-        <h1> My personal page! </h1>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+	<title>Fabiano Araujo | PHP Web Developer</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+</head>
+<body data-controller="home" data-action="index">
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<nav class="text-right">
+						<ul class="list-unstyled list-inline">
+							<li><a href="#sobre">Sobre</a></li>
+							<li><a href="#contato">Contato</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container content">
+		<div class="row">
+			<div class="col-lg-12 col-centered">
+				<div class="row">
+					<div class="col-xs-6 col-centered text-center h2-holder">
+						<h2 id="sobre">Fabiano Araujo</h2>
+						<p class="subtitle text-right">Web Developer</p>
+					</div>
+				</div>
 
-        <!-- Google Analytics -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
+				<div class="row">
+					<div class="col-xs-11 col-centered text-justify">
+						<p class="text-medium light">Sou Fabiano Araujo, web developer com foco em PHP. Analiso e defino a utilização de frameworks
+						   para cada projeto, produzindo um código seguro, legível e de fácil manutenção. Em front-end, 
+						   desenvolvo responsividade e sigo guidelines para enriquecer a experiênciado usuário com a aplicação.
+						</p>
+					</div>
+				</div>
+
+				<div class="row big-gap-top sm-gap-bot">
+					<div class="col-xs-11 col-centered">
+						<h4>Conhecimento técnico</h4>
+						<div class="row">
+							<div class="col-sm-4">
+								<p class="text-medium medium">PHP</p>
+								<ul>
+									<li>CodeIgniter</li>
+									<li>DataMapper ORM</li>
+									<li>Fat Free Framework (f3)</li>
+									<li>RedBeans</li>
+									<li>WordPress</li>
+								</ul>
+							</div>
+							<div class="col-sm-4">
+								<p class="text-medium medium">JavaScript</p>
+								<ul>
+									<li>jQuery</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-9">
+								<p class="text-medium medium">Versionamento, Front-end e Database</p>
+								<ul>
+									<li>MySQL, MSSQL e PostgreSQL</li>
+									<li>HTML5, CSS3, Bootstrap, GruntJS, Sass e Compass</li>
+									<li>Git</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>	
+
+				<div class="row sm-gap-bot">
+					<div class="col-xs-11 col-centered">
+						<div class="row">
+							<div class="col-xs-12">
+								<h4>Experiência</h4>
+								<ul class="experience">
+									<li>
+										<p class="medium">Developer <small class="regular">(Ago/2012 - Out/2013)</small> - Workroom</p>
+										<p class="text-medium light">Desenvolvimento de hotsites, abas de Facebook, temas e plugins de Wordpress e sistemas de 
+																	 gerenciamento de conteúdo em PHP e .NET.</p>
+									</li>
+									<li>
+										<p class="medium">Lead Developer <small class="regular">(Nov/2013 - Abr/2014)</small> - PluralWeb</p>
+										<p class="text-medium light">Desenvolvimento de hotsites, abas de Facebook, sistemas de gerenciamento de conteúdo exclusivos 
+																	 em PHP com CodeIgniter. Definições de arquitetura de projetos e limitações de tecnologias.</p>
+									</li>
+									<li>
+										<p class="medium">Freelance Web Developer <small class="regular">(Dez/2012 - Atual)</small></p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row sm-gap-bot">
+					<div class="col-xs-11 col-centered">
+						<div class="row">
+							<div class="col-xs-12">
+								<h4>Formação</h4>
+								<ul class="experience">
+									<li><p class="medium">Ciência da Computação - UNISINOS - Em gradução </li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row sm-gap-bot">
+					<div class="col-xs-11 col-centered">
+						<div class="row">
+							<div class="col-xs-12">
+								<h4>Pessoal</h4>
+								<p class="sm-gap-left text-medium light">
+								Com grande interesse em aprender e aplicar linguagens e tecnologias novas em cenários adequados, 
+								pesquiso e simulo códigos alimentando repositórios no <a href="https://github.com/fabianofa" target="_blank">GitHub</a>, onde publico bibliotecas e projetos testes 
+								para referência ou futuras implementações. Desenvolvo aplicativos para testes locais Windows Phone e 
+								tenho conhecimento básico em Python, Ruby e curiosidade em desenvolvimento de jogos.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row big-gap-top sm-gap-bot">
+					<div class="col-xs-6 col-centered text-center h2-holder">
+						<h2 id="contato">Contato</h2>
+					</div>
+				</div>
+
+				<div class="row sm-gap-bot">
+					<div class="col-xs-11 col-centered">
+						<p class="text-medium medium contact-email xs-gap-bot"><span class="contact">E-mail:</span> <a href="mailto:fabiano.araujo07@gmail">fabiano.araujo07@gmail.com</a></p>
+						<p class="text-smaller regular contact-linkedin"><span class="contact">Linkedin:</span> <a href="http://www.linkedin.com/pub/fabiano-araujo/6b/8a3/169">/fabiano-araujo</a></p>
+						<p class="text-smaller regular contact-twitter"><span class="contact">Twitter:</span> <a href="https://twitter.com/fabianodev">@fabianodev</a></p>
+						<p class="text-smaller regular contact-github"><span class="contact">GitHub:</span> <a href="https://github.com/fabianofa">/fabianofa</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+	</footer>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="assets/scripts/main.js"></script>
+</body>
 </html>
