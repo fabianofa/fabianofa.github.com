@@ -1,0 +1,20 @@
+.ci-javascript{
+	background: url(../images/javascript.png);
+	width: 48px;
+  	height: 55px;
+  	display: inline-block;
+}
+
+.ci-php{
+	background: url(../images/php.png);
+	width: 85px;
+  	height: 45px;
+  	display: inline-block;
+}
+
+.ci-csharp{
+	background: url(../images/csharp.png);
+	width: 87px;
+  	height: 45px;
+  	display: inline-block;
+}
