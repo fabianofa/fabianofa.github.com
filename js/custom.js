@@ -72,9 +72,6 @@ var customScripts = {
         customScripts.onePageNav();
         customScripts.profile();
         customScripts.fancybox();
-        customScripts.slider();
-        customScripts.owlSlider();
-        customScripts.bannerHeight();
     }
 }
 $('document').ready(function () {
