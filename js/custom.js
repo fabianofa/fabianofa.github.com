@@ -26,12 +26,7 @@ var customScripts = {
                 $(this).addClass('current');
                 var selector = $(this).attr('data-filter');
                 $container.isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 1000,
-                        easing: 'easeOutQuart',
-                        queue: false
-                    }
+                    filter: selector
                 });
                 return false;
             });
