@@ -18,3 +18,24 @@
   	height: 55px;
   	display: inline-block;
 }
+
+.ci-android{
+	background: url(../images/android.png);
+	width: 53px;
+  	height: 55px;
+  	display: inline-block;
+}
+
+.ci-zf{
+	background: url(../images/zf.png);
+	width: 94px;
+  	height: 45px;
+  	display: inline-block;
+}
+
+.ci-ci{
+	background: url(../images/codeigniter.png);
+	width: 38px;
+  	height: 45px;
+  	display: inline-block;
+}
